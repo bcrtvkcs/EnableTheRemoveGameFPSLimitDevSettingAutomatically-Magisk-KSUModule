@@ -5,9 +5,9 @@ if [ "$API" -lt 26 ]; then
     abort "Android 8.0 veya üstü gerekli!"
 fi
 
-ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-ui_print "Enable The "Remove Game FPS Limit" Dev Setting Automatically"
-ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+ui_print "Enable The Remove Game FPS Limit Dev Setting Automatically"
+ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 ui_print ""
 ui_print "- Cihaz: $(getprop ro.product.model)"
 ui_print "- Android: $(getprop ro.build.version.release)"

@@ -1,5 +1,5 @@
 # Enable The "Remove Game FPS Limit" Dev Setting Automatically Magisk & KSU Module
-It keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot.
+Keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot.
 
 # Installation Instructions
 1. [Download this repo](https://github.com/bcrtvkcs/EnableTheRemoveGameFPSLimitDevSettingAutomatically-Magisk-KSUModule/archive/refs/heads/main.zip).

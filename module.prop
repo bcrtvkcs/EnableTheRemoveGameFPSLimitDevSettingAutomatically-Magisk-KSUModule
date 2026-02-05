@@ -1,0 +1,6 @@
+id=EnableTheRemoveGameFPSLimitDevSettingAutomatically
+name=Enable The "Remove Game FPS Limit" Dev Setting Automatically
+version=1.0
+versionCode=1
+author=BCRTVKCS
+description=It keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot.

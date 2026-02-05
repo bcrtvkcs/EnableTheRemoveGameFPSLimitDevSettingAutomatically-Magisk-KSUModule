@@ -3,7 +3,7 @@ It keeps the developer options setting that removes the 60 Hz frame rate limit i
 
 # Installation Instructions
 1. [Download this repo](https://github.com/bcrtvkcs/EnableTheRemoveGameFPSLimitDevSettingAutomatically-Magisk-KSUModule/archive/refs/heads/main.zip).
-2. Flash via KernelSU, KernelSU Next or Magisk.
+2. Flash it via KernelSU, KernelSU Next, or Magisk.
 3. Reboot the device.
 4. Check whether the related setting is enabled.
 5. You're all set!

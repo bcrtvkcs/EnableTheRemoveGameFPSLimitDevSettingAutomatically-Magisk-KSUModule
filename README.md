@@ -8,3 +8,7 @@ It keeps the developer options setting that removes the 60 Hz frame rate limit i
 4. Check whether the related setting is enabled.
 5. You're all set!
 6. If you experience any issues, please let me know through the [Issues](https://github.com/bcrtvkcs/EnableTheRemoveGameFPSLimitDevSettingAutomatically-Magisk-KSUModule/issues) panel.
+
+# Compatibility
+- Android 8.0+
+- KernelSU / KernelSU Next / Magisk

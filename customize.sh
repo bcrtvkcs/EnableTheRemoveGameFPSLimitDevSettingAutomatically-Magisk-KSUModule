@@ -2,14 +2,14 @@
 
 # Check Android version
 if [ "$API" -lt 26 ]; then
-    abort "Android 8.0 veya üstü gerekli!"
+    abort "Android 8.0 or higher required!"
 fi
 
 ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 ui_print "Enable The Remove Game FPS Limit Dev Setting Automatically"
 ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 ui_print ""
-ui_print "- Cihaz: $(getprop ro.product.model)"
+ui_print "- Device: $(getprop ro.product.model)"
 ui_print "- Android: $(getprop ro.build.version.release)"
 ui_print "- Module path: $MODPATH"
 ui_print ""

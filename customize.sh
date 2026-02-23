@@ -16,7 +16,14 @@ ui_print ""
 
 # Check current status
 current_value=$(getprop debug.graphics.game_default_frame_rate.disabled)
-ui_print "- Current status: $current_value"
+case "$current_value" in
+    true)  ui_print "- Current status: enabled (string format: true)" ;;
+    1)     ui_print "- Current status: enabled (numeric format: 1)" ;;
+    false) ui_print "- Current status: disabled (string format: false)" ;;
+    0)     ui_print "- Current status: disabled (numeric format: 0)" ;;
+    "")    ui_print "- Current status: not set (will be auto-detected on boot)" ;;
+    *)     ui_print "- Current status: unknown value '$current_value'" ;;
+esac
 
 # Set permissions
 set_perm_recursive $MODPATH 0 0 0755 0644

@@ -5,9 +5,9 @@ if [ "$API" -lt 26 ]; then
     abort "Android 8.0 or higher required!"
 fi
 
-ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━"
 ui_print "Enable The Remove Game FPS Limit Dev Setting Automatically"
-ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+ui_print "━━━━━━━━━━━━━━━━━━━━━━━━━"
 ui_print ""
 ui_print "- Device: $(getprop ro.product.model)"
 ui_print "- Android: $(getprop ro.build.version.release)"
@@ -31,9 +31,8 @@ set_perm $MODPATH/service.sh 0 0 0755
 
 ui_print ""
 ui_print "- Initialization completed!"
-ui_print "- It will become active after a reboot."
 ui_print ""
 
 # Update status
 sed -i '/description/d' $MODPATH/module.prop
-echo "description=It keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot. Status: Installed, reboot required 🔄" >> $MODPATH/module.prop
+echo "description=It keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot. Status: Installed ✅" >> $MODPATH/module.prop

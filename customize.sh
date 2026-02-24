@@ -35,4 +35,4 @@ ui_print ""
 
 # Update status
 sed -i '/description/d' $MODPATH/module.prop
-echo "description=It keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot. Status: Installed ✅" >> $MODPATH/module.prop
+echo "description=Status: Installed ✅\\\\nIt keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot." >> $MODPATH/module.prop

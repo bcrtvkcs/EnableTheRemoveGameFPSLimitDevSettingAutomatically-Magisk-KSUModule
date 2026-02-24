@@ -6,7 +6,7 @@ MODDIR="/data/adb/modules/EnableTheRemoveGameFPSLimitDevSettingAutomatically"
 update_status() {
     local status_text="$1"
     local status_emoji="$2"
-    local new_description="description=It keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot. Status: $status_text $status_emoji"
+    local new_description="description=Status: $status_text $status_emoji\\\\nIt keeps the developer options setting that removes the 60 Hz frame rate limit in games enabled after every reboot."
     
     sed -i "s|^description=.*|$new_description|" "$MODDIR/module.prop"
     echo "EnableTheRemoveGameFPSLimitDevSettingAutomatically: $status_text" >> /dev/kmsg

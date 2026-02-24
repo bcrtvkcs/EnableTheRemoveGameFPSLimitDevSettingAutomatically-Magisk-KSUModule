@@ -1,10 +1,11 @@
 id=EnableTheRemoveGameFPSLimitDevSettingAutomatically
-name=Enable The "Remove Game FPS Limit" Dev Setting Automatically
-version=1.2.3
-versionCode=6
+name=Enable The Remove Game FPS Limit Dev Setting Automatically
+version=1.2.4
+versionCode=7
 author=BCRTVKCS
 description=Enables the Remove Game FPS Limit developer setting on every boot so you don't have to re-enable it manually each time.
 updateJson=https://raw.githubusercontent.com/bcrtvkcs/EnableTheRemoveGameFPSLimitDevSettingAutomatically-Magisk-KSUModule/main/update.json
+
 
 
 

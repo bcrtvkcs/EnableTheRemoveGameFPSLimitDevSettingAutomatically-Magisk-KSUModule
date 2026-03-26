@@ -1,6 +1,8 @@
 # Enable The "Remove Game FPS Limit" Dev Setting Automatically Magisk & KSU Module
 
-![Overview](https://raw.githubusercontent.com/bcrtvkcs/EnableTheRemoveGameFPSLimitDevSettingAutomatically-Magisk-KSUModule/refs/heads/main/overview.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bcrtvkcs/EnableTheRemoveGameFPSLimitDevSettingAutomatically-Magisk-KSUModule/refs/heads/main/overview.png?raw=true" alt="ÆSIR Header Image"/>
+</p>
 
 A Magisk / KernelSU module that automatically enables the **"Remove Game FPS Limit"** developer setting on every boot so you don't have to re-enable it manually each time.
 
